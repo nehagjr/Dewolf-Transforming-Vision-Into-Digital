@@ -4,16 +4,16 @@ const Footer=()=>{
         <>
 <footer>
 
-<div class="footer-top">
-  <div class="container">
+<div className="footer-top">
+  <div className="container">
 
-    <div class="footer-brand">
+    <div className="footer-brand">
 
-      <a href="#" class="footer-logo">
-        <img src={footer1} alt="SCEO logo"/>
+      <a href="#" className="footer-logo">
+        <img src={footer1} alt="SCEO logo" style={{height: "50px"}}/>
       </a>
 
-      <p class="section-text">
+     <p className="section-text">
         Aliquam nullam tempor sapien donec and gravida congue an ipsum porta justo velna auctor magna and laoreet
         augue an
         auctor gravida donec
@@ -21,100 +21,100 @@ const Footer=()=>{
 
     </div>
 
-    <div class="footer-link-box">
+    <div className="footer-link-box">
 
-      <ul class="footer-list">
+      <ul className="footer-list">
 
         <li>
-          <p class="h4">Company</p>
+          <p className="h4">Company</p>
         </li>
 
         <li>
-          <a href="#" class="footer-link">About Us</a>
+          <a href="#" className="footer-link">About Us</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Careers</a>
+          <a href="#" className="footer-link">Careers</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Press & Media</a>
+          <a href="#" className="footer-link">Press & Media</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Contact Us</a>
-        </li>
-
-      </ul>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4">Discover</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Our Blog</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Advertising</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Plans & Pricing</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Testimonials</a>
+          <a href="#" className="footer-link">Contact Us</a>
         </li>
 
       </ul>
 
-      <ul class="footer-list">
+      <ul className="footer-list">
 
         <li>
-          <p class="h4">Legal</p>
+          <p className="h4">Discover</p>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Terms of Use</a>
+          <a href="#" className="footer-link">Our Blog</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" className="footer-link">Advertising</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Cookie Policy</a>
+          <a href="#" className="footer-link">Plans & Pricing</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Site Map</a>
+          <a href="#" className="footer-link">Testimonials</a>
         </li>
 
       </ul>
 
-      <ul class="footer-list">
+      <ul className="footer-list">
 
         <li>
-          <p class="h4">Support</p>
+          <p className="h4">Legal</p>
         </li>
 
         <li>
-          <a href="#" class="footer-link">FAQs</a>
+          <a href="#" className="footer-link">Terms of Use</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Editor Help</a>
+          <a href="#" className="footer-link">Privacy Policy</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Community</a>
+          <a href="#" className="footer-link">Cookie Policy</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">Live Chatting</a>
+          <a href="#" className="footer-link">Site Map</a>
+        </li>
+
+      </ul>
+
+      <ul className="footer-list">
+
+        <li>
+          <p className="h4">Support</p>
+        </li>
+
+        <li>
+          <a href="#" className="footer-link">FAQs</a>
+        </li>
+
+        <li>
+          <a href="#" className="footer-link">Editor Help</a>
+        </li>
+
+        <li>
+          <a href="#" className="footer-link">Community</a>
+        </li>
+
+        <li>
+          <a href="#" className="footer-link">Live Chatting</a>
         </li>
 
       </ul>
@@ -126,29 +126,29 @@ const Footer=()=>{
 
 
 
-<div class="footer-bottom">
-  <div class="container">
+<div className="footer-bottom">
+  <div className="container">
 
-    <p class="copyright">
+    <p className="copyright">
       &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
     </p>
 
-    <ul class="social-list">
+    <ul className="social-list">
 
       <li>
-        <a href="#" class="social-link">GitHub</a>
+        <a href="#" className="social-link">GitHub</a>
       </li>
 
       <li>
-        <a href="#" class="social-link">Twitter</a>
+        <a href="#" className="social-link">Twitter</a>
       </li>
 
       <li>
-        <a href="#" class="social-link">Instagram</a>
+        <a href="#" className="social-link">Instagram</a>
       </li>
 
       <li>
-        <a href="#" class="social-link">YouTube</a>
+        <a href="#" className="social-link">YouTube</a>
       </li>
 
     </ul>
