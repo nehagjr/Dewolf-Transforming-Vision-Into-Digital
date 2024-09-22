@@ -1311,3 +1311,157 @@
     }
   
   }
+
+
+  /* =========================register====================== */
+  
+
+/* ============================================ */
+/* Container Styling */
+/* Registration.css */
+
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the entire registration page */
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Aligns items to the top */
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f1f5f8; /* Light background color */
+  padding: 20px;
+}
+
+/* Left section containing the host info */
+.left-section {
+  flex: 1; /* Takes up equal space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  
+}
+
+/* Styling the host image */
+.host-image {
+  border-radius: 50%; /* Circular image */
+  width: 400px;
+  height: 500px;
+  margin: 20px;
+  margin-bottom: 15px;
+  margin-top: 140px;
+}
+
+/* Right section containing the form */
+.right-section {
+  flex: 1; /* Takes up equal space */
+  background-color: #ffffff; /* White background */
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Form styles */
+.registration-form {
+  width: 100%;
+  max-width: 500px; /* Limits form width */
+  margin: 0 auto; /* Centers the form */
+}
+
+/* Form header */
+.registration-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Form group for consistent spacing */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Labels */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+/* Input fields, text areas, and select boxes */
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: #2980b9; /* Blue border on focus */
+  outline: none; /* Removes default focus outline */
+}
+
+/* Textarea styling */
+.form-group textarea {
+  resize: vertical; /* Vertical resize only */
+  height: 100px; /* Default height */
+}
+
+/* Select box for status */
+.form-group select {
+  background-color: #ffffff; /* White background */
+  cursor: pointer;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2980b9; /* Blue background */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: #1a5276; /* Darker blue on hover */
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+  .contain {
+      flex-direction: column; /* Stack sections vertically */
+      align-items: center; /* Center items */
+  }
+  
+  .left-section,
+  .right-section {
+      width: 100%; /* Full width on small screens */
+      padding: 20px;
+  }
+
+  .right-section {
+      margin-top: 20px; /* Add space between sections */
+  }
+
+  .host-image {
+      width: 150px; /* Smaller image */
+      height: 150px;
+  }
+}
