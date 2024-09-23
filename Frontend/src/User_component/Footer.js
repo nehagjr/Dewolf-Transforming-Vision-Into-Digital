@@ -14,9 +14,8 @@ const Footer=()=>{
       </a>
 
      <p className="section-text">
-        Aliquam nullam tempor sapien donec and gravida congue an ipsum porta justo velna auctor magna and laoreet
-        augue an
-        auctor gravida donec
+        if you have a not using digital marketing service in your business yet as well be
+         Advertising by carrer pigeon !
       </p>
 
     </div>

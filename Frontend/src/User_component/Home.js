@@ -8,14 +8,14 @@ const Home = ()=>{
 
           <div class="hero-content">
 
-            <h1 class="h1 hero-title">Get more sales with SEO, PPC, and Email Marketing</h1>
+            <h1 class="h1 hero-title">  we are creative digital service agency </h1>
 
             
 
             <p class="hero-text">
-              <span>Free 30 days trial</span>
-              <span>Exclusive Support</span>
-              <span>No Fees</span>
+              <span>30 days free service </span>
+              <span>inclusive cooperation </span>
+              <span>there will be no charge till these 30 days </span>
             </p>
 
           </div>

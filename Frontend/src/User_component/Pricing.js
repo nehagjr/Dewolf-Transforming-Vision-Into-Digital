@@ -12,9 +12,7 @@ const Pricing = ()=>{
             <h2 className="h3 section-title">One brilliant idea for every client</h2>
 
             <p className="section-text">
-              Aliqum mullam blandit tempor sapien gravida at donec ipsum porta justo. Velna vitae auctor and congue
-              magna impedit
-              luctus dolor volute
+              we as a digital marketing Company & plan and conceptualize  to create stragize  distribute and result driven content that convert  through our pripority  contentlift platform 
             </p>
 
             <button className="btn btn-primary">Pricing & packages</button>
