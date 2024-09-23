@@ -25,7 +25,7 @@ const Service = ()=>{
                 <h3 className="h4 card-title">Local SEO</h3>
 
                 <p className="card-text">
-                  Porta semper lacus cursus feugiat and primis ultrice
+                  It is serach engien optimization strategy that helps your bussiness to be more visisble in local search results . 
                 </p>
 
               </div>
@@ -41,7 +41,8 @@ const Service = ()=>{
                 <h3 className="h4 card-title">E-Commerce SEO</h3>
 
                 <p className="card-text">
-                  Porta semper lacus cursus feugiat and primis ultrice
+                use position tracking to moniter your keywords landing pages,,domains,
+                and competors.
                 </p>
 
               </div>
@@ -57,7 +58,7 @@ const Service = ()=>{
                 <h3 className="h4 card-title">Advanced Analytics</h3>
 
                 <p className="card-text">
-                  Porta semper lacus cursus feugiat and primis ultrice
+                The proven value of this approach is is high quality software .
                 </p>
 
               </div>
@@ -73,7 +74,7 @@ const Service = ()=>{
                 <h3 className="h4 card-title">PPC Management</h3>
 
                 <p className="card-text">
-                  Porta semper lacus cursus feugiat and primis ultrice
+                It is process of managing a company ppc strategy and budget.
                 </p>
 
               </div>
@@ -92,7 +93,7 @@ const Service = ()=>{
 
   <p className="section-subtitle">Market research</p>
 
-  <h2 className="h3 section-title">Integrated marketing solutions that fuel business growth</h2>
+  <h2 className="h3 section-title">Its is a away thta producers and the marketplae study the consumer and gather information .</h2>
 
   <ul className="features-list">
 
@@ -107,9 +108,7 @@ const Service = ()=>{
           <h3 className="h4 card-title">Advanced Analytics Review</h3>
 
           <p className="section-text">
-            Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
-            auctor felis augue
-            mauris aoreet tempor
+         Advanced analytics is a collection of  data analytics techniques that use complex tools.
           </p>
         </div>
 
@@ -127,9 +126,7 @@ const Service = ()=>{
           <h3 className="h4 card-title">Email Marketing Campaigns</h3>
 
           <p className="section-text">
-            Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
-            auctor felis augue
-            mauris aoreet tempor
+          It is a form of digital marketing services that involves using emailto communicate with customers .
           </p>
         </div>
 
@@ -147,9 +144,7 @@ const Service = ()=>{
           <h3 className="h4 card-title">Video Marketing</h3>
 
           <p className="section-text">
-            Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
-            auctor felis augue
-            mauris aoreet tempor
+          It is use of video mcontent to promote a brand , product,or servie to an audience .
           </p>
         </div>
 
@@ -167,9 +162,7 @@ const Service = ()=>{
           <h3 className="h4 card-title">Search Engine Optimization (SEO)</h3>
 
           <p className="section-text">
-            Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
-            auctor felis augue
-            mauris aoreet tempor
+          It is service that helps websites rank higher in search like Google,Bing and Yahoo.
           </p>
         </div>
 
@@ -187,9 +180,7 @@ const Service = ()=>{
           <h3 className="h4 card-title">Pay Per Click (PPC)</h3>
 
           <p className="section-text">
-            Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
-            auctor felis augue
-            mauris aoreet tempor
+            It is an online advertise model where advertise pay a fee to publish each time an ad s clicked.
           </p>
         </div>
 
@@ -207,9 +198,7 @@ const Service = ()=>{
           <h3 className="h4 card-title">Content Marketing</h3>
 
           <p className="section-text">
-            Porta semper lacus cursus feugiat primis ultrice ligula risus auctor tempus feugiat impedit undo
-            auctor felis augue
-            mauris aoreet tempor
+            It is a approach establish expertise promotes brand awarness.
           </p>
         </div>
 
