@@ -526,6 +526,46 @@
   }
   
   .cta-button-wrapper > a:is(:hover, :focus) { color: var(--granite-gray); }
+
+  /*-------------------------------------*/
+  /* Contact */
+
+  .contact { margin-bottom: 120px; }
+
+.contact-content { margin-bottom: 50px; }
+
+.contact-title {
+  color: var(--royal-blue-dark);
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: var(--fw-500) !important;
+}
+
+.contact-banner img { width: 100%; }
+
+.input-wrapper { margin-bottom: 30px; }
+
+.input-label {
+  color: var(--oxford-blue);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-600);
+  margin-bottom: 10px;
+}
+
+.input-field {
+  border-bottom: 1px solid var(--platinum);
+  padding: 7px 0;
+  font-size: var(--fs-6);
+}
+
+.input-field::placeholder { color: var(--silver-chalice); }
+
+textarea {
+  max-height: 300px;
+  min-height: 100px;
+  height: 100px;
+  resize: vertical;
+}
   
   
   
