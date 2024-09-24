@@ -20,15 +20,13 @@ const About = ()=>{
               <h2 className="h3 section-title">First page rankings. First name basis</h2>
 
               <p className="section-text">
-                Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus magna
-                dolor luctus and
-                egestas sapien egestas vitae nemo volute
+                Digital Marketing is often compare to 'traditional marketing' suc as magzines , billboards
+                and direct mail.
               </p>
 
               <p className="section-text">
-                Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus magna
-                dolor luctus and
-                egestas sapien egestas vitae nemo volute
+                Digital marketing typically refers to the online marketing campigns that appear on the computer and 
+                tablets, phones or other devices..
               </p>
 
             </div>
@@ -46,9 +44,8 @@ const About = ()=>{
               <h3 className="h4 about-bottom-title">Advanced Analytics Review</h3>
 
               <p className="section-text">
-                Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus
-                magna dolor
-                luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat sodales a sapien
+                To help spot new growtth oppurtinites advanced analytics can be used to analysis 
+                big data .One of the most common concerns for succesfull business.
               </p>
 
               <h3 className="h4 about-bottom-title">Improve Your Website Ranking Fast</h3>
@@ -57,14 +54,13 @@ const About = ()=>{
 
                 <li className="about-bottom-item">
                   <p className="section-text">
-                    Fringilla risus, luctus mauris auctor euismod an iaculis luctus magna purus pretium ligula purus and
-                    quaerat
+                   Create quality content with the help of the google.
                   </p>
                 </li>
 
                 <li className="about-bottom-item">
                   <p className="section-text">
-                    Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus
+                    Secure high results can reward your journey ..
                   </p>
                 </li>
 
