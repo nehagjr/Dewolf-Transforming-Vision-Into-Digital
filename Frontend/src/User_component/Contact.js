@@ -3,10 +3,9 @@ const Contect = ()=>{
     return(
       <>
       <section class="contact" id="contact">
-        <div class="container">
+        <div class="container contact1">
 
           <div class="contact-content">
-            <h2 class="h2 contact-title">Let's scale your brand, together</h2>
 
             <figure class="contact-banner">
               <img src={contact} alt="contact page"/>
@@ -36,8 +35,7 @@ const Contect = ()=>{
             <div class="input-wrapper">
               <label for="message" class="input-label">How can we help? *</label>
 
-              <textarea name="message" id="message" placeholder="Type Description" required
-                class="input-field"></textarea>
+              
             </div>
 
             <button type="submit" class="btn btn-primary">Send Message</button>
