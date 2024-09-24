@@ -1,34 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Common_Components/Home";
 import Layout from "./Common_Components/Layout";
