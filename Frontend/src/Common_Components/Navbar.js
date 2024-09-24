@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import navbar1 from '../assets/images/Dewolf.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -68,7 +69,7 @@ const Navbar = () => {
             </button>
 
             <ul className="navbar-list">
-              <li className="navbar-item"><a href="#home" className="navbar-link">Home</a></li>
+              <li className="navbar-item"><a href="#hero" className="navbar-link">Home</a></li>
               <li className="navbar-item"><a href="#service" className="navbar-link">Service</a></li>
               <li className="navbar-item"><a href="#about" className="navbar-link">About</a></li>
               <li className="navbar-item"><a href="#features" className="navbar-link">Features</a></li>
@@ -76,7 +77,9 @@ const Navbar = () => {
               <li className="navbar-item"><a href="#faq" className="navbar-link">FAQ's</a></li>
             </ul>
 
-            <button className="btn btn-primary">Let's Get Started</button>
+            <Link to={"/login"}><button className="btn btn-primary">Login</button></Link>
+            <Link to={"/register"}><button className="btn btn-primary">Registration</button></Link>
+            
           </nav>
         </div>
       </header>
