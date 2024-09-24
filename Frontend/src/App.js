@@ -4,6 +4,8 @@ import Navbar from "./User_component/Navbar";
 import Footer from "./User_component/Footer";
 import Home from "./User_component/Home";
 import Contect from "./User_component/Contact";
+import Team from "./User_component/Team";
+
 
 const App = ()=>{
   return(
@@ -15,6 +17,7 @@ const App = ()=>{
     <Pricing/>
     <Contect/>
     <Footer/>
+    <Team/>
     
     </>
   )
