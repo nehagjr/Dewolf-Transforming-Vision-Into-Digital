@@ -28,11 +28,8 @@ const Pricing = ()=>{
         </div>
       </section>
 
-      
-
      <section id="pricing" class="pricing section">
 
-   
     <div class="container section-title" data-aos="fade-up">
         <h2>Pricing</h2>
         <p>Check Our Affordable Pricing<br></br></p>
@@ -101,9 +98,7 @@ const Pricing = ()=>{
 
     </div>
 
-   </section>
-
-   
+   </section>   
     </>
   )
 }
