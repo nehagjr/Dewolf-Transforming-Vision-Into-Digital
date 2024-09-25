@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+.section {
+    padding: 60px 0;
+   
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    padding: 0 150px;
+}
+.section-title {
+    margin-bottom: 40px;
+}
+.section-title h2 {
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+.section-title p {
+    font-size: 18px;
+    color: #777;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col {
+    padding: 15px;
+    margin: 0 auto;
+    width:360px;
+
+    box-sizing: border-box;
+}
+.btn-buy {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-buy:hover {
+    background: #0056b3;
+}
+/* subscribe Section */
+.subscribe-tem {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.subscribe-tem:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.subscribe-tem h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+.subscribe-tem .price {
+    font-size: 32px;
+    color: #333;
+    margin: 20px 0;
+}
+.subscribe-tem .price sup {
+    font-size: 20px;
+    top: -10px;
+}
+.subscribe-tem ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.subscribe-tem ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.subscribe-tem ul li.na {
+    color: #ccc;
+}
+.subscribe-tem .icon {
+    font-size: 48px;
+    margin: 20px 0;
+}
+.featured {
+    background: #ff0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* FAQ Section */
+.faq-container {
+    text-align: left;
+}
+.faq-item {
+    margin-bottom: 20px;
+}
+.faq-item h3 {
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.faq-content {
+    display: none;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.faq-active .faq-content {
+    display: block;
+}
+.faq-toggle {
+    float: right;
+}
+/* Portfolio Section */
+.portfolio-filters {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px;
+}
+.portfolio-filters li {
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+.portfolio-filters .filter-active {
+    background: #007bff;
+    color: #fff;
+}
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio-item img {
+    width: 100%;
+    display: block;
+}
+.portfolio-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio-item:hover .portfolio-info {
+    opacity: 1;
+}
+.portfolio-info h4 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+.portfolio-info p {
+    margin: 0;
+}
+.preview-link, .details-link {
+    margin: 10px;
+    font-size: 24px;
+    color: #fff;
+}
+/* Testimonials Section */
+.testimonials .testimonial-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.testimonials .testimonial-item img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonials .testimonial-item h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.testimonials .testimonial-item h4 {
+    font-size: 16px;
+    color: #555;
+    margin: 0 0 20px;
+}
+.testimonials .testimonial-item p {
+    font-style: italic;
+    color: #777;
+}
+
+
+/* Colors for different plans */
+.free-plan-color {
+  color: #20c997;
+}
+.free-plan-icon i {
+  color: #20c997;
+}
+.starter-plan-color {
+  color: #0dcaf0;
+}
+.starter-plan-icon i {
+  color: #0dcaf0;
+}
+.business-plan-color {
+  color: #fd7e14;
+}
+.business-plan-icon i {
+  color: #fd7e14;
+}
+
