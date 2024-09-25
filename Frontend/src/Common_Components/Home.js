@@ -1,6 +1,6 @@
 import hero from '../assets/images/hero-banner.png'
 import Contect from './Contact';
-import Footer from './Footer';
+import Subscription from './Subscription';
 import Navbar from './Navbar';
 import Pricing from './Pricing';
 import Service from './Services';
@@ -32,6 +32,7 @@ const Home = ()=>{
 
     <Service/>
     <Pricing/>
+    <Subscription/>
     <Contect/>
     
       </>
