@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'adminApp',
     'clientApp',
     'corsheaders',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
