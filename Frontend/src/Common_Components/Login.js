@@ -9,7 +9,7 @@ const Login = () => {
 
                 <div class="left-section">
 
-                    <div class="host-info">
+                    <div class="host-info">z
                         <img src={register} alt="Host Image" class="host-image" />
 
                     </div>
@@ -19,7 +19,7 @@ const Login = () => {
                 
                     <form className="registration-form">
                         <h2>Login Form</h2>
-
+z
                         {/* <div className="form-group">
                             <label htmlFor="client_id">Client ID</label>
                             <input type="text" id="client_id" name="client_id" required />
