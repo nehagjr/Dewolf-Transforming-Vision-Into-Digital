@@ -4,16 +4,12 @@ const Contect = ()=>{
       <>
       <section class="contact" id="contact">
         <div class="container contact1">
-
           <div class="contact-content">
-
             <figure class="contact-banner">
               <img src={contact} alt="contact page"/>
             </figure>
-          </div>
-
-          <form action="" class="contact-form">
-
+          </div> 
+        <form action="" class="contact-form">
             <div class="input-wrapper">
               <label for="name" class="input-label">Name *</label>
 
