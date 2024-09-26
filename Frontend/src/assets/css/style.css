@@ -1646,3 +1646,26 @@ button:hover {
     height: 120px;
   }
 }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.section-title-1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.section-title-1 h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section-title-1 p {
+  font-size: 1.2em;
+  color: #666;
+}
