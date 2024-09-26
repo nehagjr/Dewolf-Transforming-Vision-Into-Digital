@@ -1,11 +1,10 @@
 import contact from '../assets/images/2.jpg'
 const Contect = ()=>{
     return(
-      <>
-      <div class="container section-title-1">
-  <h1>Contact</h1>
-  <p>Mined visit our contact page</p>
-</div>
+      <><div class="container section-title-1">
+      <h1>Contact</h1>
+      <p>Mined visit our contact page</p>
+    </div>
       <section class="contact" id="contact">
         <div class="container contact1">
 
