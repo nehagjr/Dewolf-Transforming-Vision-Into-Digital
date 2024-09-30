@@ -2,6 +2,7 @@ import contact from '../assets/images/2.jpg'
 const Contect = ()=>{
     return(
       <>
+<<<<<<< HEAD
       <section class="contact" id="contact">
         <div class="container contact1">
           <div class="contact-content">
@@ -40,6 +41,9 @@ const Contect = ()=>{
 
         </div>
       </section>
+=======
+
+>>>>>>> 24a87e90f05da92a68b79f518bd6a02be971fe51
    
       </>
     )
