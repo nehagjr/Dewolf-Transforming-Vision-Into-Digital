@@ -96,6 +96,7 @@ const Team = ()=>{
           <div className="person-info">
             <h3 className="full-name">Jyoti Ade </h3>
             <span className="speciality">co-founder</span>
+            
           </div>
         </div>
       </div>
