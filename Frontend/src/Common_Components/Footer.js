@@ -4,6 +4,7 @@ import insta3 from '../assets/images/insta-post-3.jpg'
 import insta4 from '../assets/images/insta-post-4.jpg'
 import insta5 from '../assets/images/insta-post-5.jpg'
 import insta6 from '../assets/images/insta-post-6.jpg'
+import '../assets/css/footer.css'
 const Footer=()=>{
     return(
         <>

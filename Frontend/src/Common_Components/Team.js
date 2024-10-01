@@ -1,9 +1,9 @@
-import mehak from '../src/assets/images/testimonials/mehak.jpg'
-import neha from '../src/assets/images/testimonials/neha.jpg'
-import jyoti from '../src/assets/images/testimonials/jyoti.jpg'
-import siddharth from '../src/assets/images/testimonials/siddharth.jpg'
-import vivek from '../src/assets/images/ testimonials/vivek.jpg'
-import "../src/assets/team.css"
+import mehak from '../assets/images/mehak.jpg'
+import neha from '../assets/images/neha.jpg'
+import jyoti from '../assets/images/jyoti.jpg'
+import siddharth from '../assets/images/siddharth.jpg'
+import vivek from '../assets/images/vivek.jpg'
+import "../assets/css/team.css"
 
 const Team = ()=>{
     return(

@@ -1,4 +1,4 @@
-
+import "../assets/css/service.css"
 const Pricing = ()=>{
   return(
     <>
