@@ -1,4 +1,4 @@
-import React from 'react';
+
 import p1 from '../assets/images/project-1.jpg'
 import p2 from '../assets/images/project-2.jpg'
 import p3 from '../assets/images/project-3.jpg'
@@ -8,16 +8,17 @@ import "../assets/css/main.css";
 const Project = () => {
   return (
     <>
+    <div className='ProjectsContainer'>
       <section className="section project" id="project" aria-label="project">
         <div className="container">
 
           <p className="section-subtitle has-before text-center">Projects</p>
 
           <h2 className="h2 section-title text-center">
-            Pixology complete <span className="has-before">project</span>
+            Dewolf complete <span className="has-before">project</span>
           </h2>
 
-          <ul className="filter-list">
+          {/* <ul className="filter-list">
             <li>
               <button className="filter-btn active" data-filter-btn>Website</button>
             </li>
@@ -33,7 +34,7 @@ const Project = () => {
             <li>
               <button className="filter-btn" data-filter-btn>Branding Design</button>
             </li>
-          </ul>
+          </ul> */}
 
           <ul className="grid-list">
             <li>
@@ -57,7 +58,7 @@ const Project = () => {
                 </figure>
                 <div className="card-content">
                   <h3 className="h3">
-                    <a href="http://nehagjr.github.io/Dewolf_/" className="card-title">Graphic Design</a>
+                    <a href="http://nehagjr.github.io/Dewolf_/" className="card-title1">Graphic Design</a>
                   </h3>
                   <a href="#" className="card-tag">Design</a>
                 </div>
@@ -108,6 +109,7 @@ const Project = () => {
           </ul>
         </div>
       </section>
+    </div>
     </>
   );
 };

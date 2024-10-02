@@ -41,9 +41,7 @@ const Service = ()=>{
                                 <img class="img-fluid" src={icon2} alt="Icon"/>
                             </div>
                             <h4 class="mb-3">Internet Marketing</h4>
-                                <p class="mb-0">Internet marketing, also known as online marketing 
-                                    or digital marketing, uses the Internet to promote
-                                     a brand, product, or service.</p>
+                                <p class="mb-0">Internet marketing is the promotion of a company and its products or services through online tools that generate leads, drive traffic, and boost sales.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="https://www.shopify.com/blog/internet-marketing">Read More</a>
@@ -147,9 +145,7 @@ const Service = ()=>{
                                 <img class="img-fluid" src={icon3} alt="Icon"/>
                             </div>
                             <h4 class="mb-3">Pay-Per-Click Ads</h4>
-                                <p class="mb-0">PPC stands for pay-per-click, 
-                                    a model of digital advertising where the advertiser pays
-                                     a fee each time one of their ads is clicked.</p>
+                                <p class="mb-0">Pay-per-click (PPC) is an online advertising model where advertisers pay a fee each time a user clicks on their ad. PPC ads can appear in search engines, and on websites</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="https://www.wordstream.com/ppc#:~:text=PPC%20stands%20for%20pay-per-click%2C%20a%20model%20of%20digital,worth%20more%20than%20what%20you%20pay%20for%20it.">Read More
