@@ -8,7 +8,7 @@ import "../assets/css/team.css"
 const Team = ()=>{
     return(
       <>
-    <section className="section-team">
+    <section className="section-team" id='team'>
   <div className="container1">
     {/* Start Header Section */}
     <div className="row1 justify-content-center text-center">

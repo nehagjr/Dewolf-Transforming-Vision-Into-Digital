@@ -8,7 +8,7 @@ import "../assets/css/main.css";
 const Project = () => {
   return (
     <>
-    <div className='ProjectsContainer'>
+    <div className='ProjectsContainer' id="projects">
       <section className="section project" id="project" aria-label="project">
         <div className="container">
 

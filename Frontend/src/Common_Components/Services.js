@@ -8,7 +8,7 @@ const Service = ()=>{
   return(
     <>
             
-            <div class="container-xxl py-5">
+            <div class="container-xxl py-5" id='services'>
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" >
                 <p class="fs-5 fw-medium text-primary">Our Services</p>

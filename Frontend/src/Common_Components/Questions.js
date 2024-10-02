@@ -26,7 +26,7 @@ const Faqs=()=>{
           <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
 
             <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3><span className='ask'>Frequently Asked </span><strong className='ask'>Questions</strong></h3>
+              <h3><span >Frequently Asked </span><strong >Questions</strong></h3>
               <p>
               Learn all you need to know about digital marketing, its methodologies, and how to get started in this career.
               </p>
