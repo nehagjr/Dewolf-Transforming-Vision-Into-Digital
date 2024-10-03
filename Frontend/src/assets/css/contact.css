@@ -8,7 +8,7 @@
   :root { 
     --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-    --heading-color: #040677; /* Color for headings, subheadings and title throughout the website */
+    /* --heading-color: #040677; Color for headings, subheadings and title throughout the website */
     --accent-color: #1acc8d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
     --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -44,16 +44,16 @@
     scroll-behavior:smooth;
 }
 
-.contact .info-item+.info-item {
+.contact .info-item1+.info-item1 {
     margin-top: 40px;
   }
   
-  .contact .info-item i {
-    color: var(--accent-color);
+  .contact .info-item1 i {
+    /* color: var(--accent-color); */
     background: color-mix(in srgb, var(--accent-color), transparent 92%);
     font-size: 20px;
-    width: 44px;
-    height: 44px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,20 +62,22 @@
     margin-right: 15px;
   }
   
-  .contact .info-item h3 {
+  .contact .info-item1 h3 {
     padding: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 5px;
+    color: black;
+
   }
   
-  .contact .info-item p {
+  .contact .info-item1 p {
     padding: 0;
     margin-bottom: 0;
     font-size: 14px;
   }
   
-  .contact .info-item:hover i {
+  .contact .info-item1:hover i {
     background: var(--accent-color);
     color: var(--contrast-color);
   }
