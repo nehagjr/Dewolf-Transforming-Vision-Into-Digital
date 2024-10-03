@@ -3,6 +3,8 @@ import Home from "./Common_Components/Home";
 import Layout from "./Common_Components/Layout";
 import Login from "./Common_Components/Login";
 import Registration from "./Common_Components/Registration";
+import Navbar from "./Admin_component/Navbar";
+
 
 
 const App = ()=>{
@@ -16,6 +18,10 @@ const App = ()=>{
                <Route path="/login" element={<Login/>} />
                <Route path="/register" element={<Registration/>} /> 
             </Route>
+            <Route path="/commonAdmin" element={<Navbar/>}>
+            
+            </Route>
+           
             
       </Routes>
     </BrowserRouter>    
